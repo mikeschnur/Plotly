@@ -67,7 +67,7 @@ function buildCharts(sample) {
     var result = resultArray[0];
     var metaresults =metaArray[0];
     // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
-    var Panel = d3.select("#sample-metadata");
+    var PANEL = d3.select("#sample-metadata");
     var otu_ids = result.otu_ids;
     var otu_labels = result.otu_labels;
     var sample_values = result.sample_values;
